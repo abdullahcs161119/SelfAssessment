@@ -24,6 +24,9 @@ const Signup = () => {
         password: password,
       })
     );
+    alert(
+      "your account has been created you must move to the loggin screen Thankyou!"
+    );
   };
   const handleLogin = () => {
     history.push("/login");

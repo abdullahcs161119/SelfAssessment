@@ -1,0 +1,133 @@
+.row {
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  flex-wrap: wrap;
+}
+.active {
+ 
+  border-right: 5px solid #ffffff !important;
+  box-shadow: none;
+  border-top-right-radius: 5%;
+}
+#dashboard-content {
+  .my-navbar {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(
+      to right,
+      rgb(59, 59, 59),
+      rgb(59, 59, 59),
+      rgb(59, 59, 59),
+      rgb(59, 59, 59),
+      //  #8da5f7  rgba(0, 0, 0, 0.25)
+    );
+    border-right: 2px solid rgb(59, 59, 59);
+    box-shadow: 0 0 10px 5px rgb(59, 59, 59);
+    .nav-header {
+      display: flex;
+      align-items: center;
+      background-image: linear-gradient(
+        to right,
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        //  #8da5f7  rgba(0, 0, 0, 0.25)
+      );
+      color: #ffffff;
+      //padding: 12px;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.85rem;
+      height: 10rem;
+      margin-bottom: 1rem;
+      .icon {
+        margin-right: 12px;
+      }
+      .image-logo {
+        width: 14rem;
+        &:hover {
+          //background-color: #6babe1;
+          box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
+          padding: 5%;
+          border: none;
+        }
+
+        &:focus {
+          box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+        to right,
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        rgb(59, 59, 59),
+        //  #8da5f7  rgba(0, 0, 0, 0.25)
+      );
+      color: #ffffff;
+      padding: 12px;
+      text-decoration: none;
+      //font-weight: bold;
+      font-size: 1.2rem;
+      font-family: "David Libre", serif;
+      //border-bottom: 1px solid #e9e9e9;
+
+      .icon {
+        margin-right: 12px;
+      }
+
+      &:hover {
+        background-image: linear-gradient(
+          to right,
+          #1b1c1c,
+          #1b1c1c,
+          #1b1c1c,
+          #1b1c1c,
+          //  #8da5f7
+        );
+        border: none;
+        border-right: 5px solid #ffffff;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .nav-footer {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      align-items: center;
+      color: #ffffff;
+      padding: 12px;
+      //margin-top: 100%;
+      justify-content: center;
+      // padding-top: 67vh;
+      border-top: 0.5px solid #1b1c1c;
+      .icon {
+        margin-right: 12px;
+      }
+      .btn-logout {
+        font-size: 1.2rem;
+        font-family: "David Libre", serif;
+        &:hover {
+          //background-color: #6babe1;
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+          //padding: 5%;
+          border: none;
+          border-radius: 10%;
+        }
+      }
+    }
+  }
+}
